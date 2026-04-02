@@ -1,28 +1,28 @@
 class Ewt < Formula
   desc "Runtime isolation for Git worktrees — run multiple environments simultaneously"
   homepage "https://everstack.dev/runtime"
-  version "0.1.10"
+  version "0.1.11"
   license "FSL-1.1-ALv2"
 
   on_macos do
     on_arm do
       url "https://github.com/everstacklabs/homebrew-tap/releases/download/v#{version}/ewt-darwin-aarch64.tar.gz"
-      sha256 "19348c9f828eb538073d3ea022bdf609e7eff17c6685ee25de956810eb8e41ab"
+      sha256 "4c1422e75768964fb4d984cb04703bf2949028ba1ca52063a9d07105b4557499"
     end
     on_intel do
       url "https://github.com/everstacklabs/homebrew-tap/releases/download/v#{version}/ewt-darwin-x86_64.tar.gz"
-      sha256 "64f8b2f57396ab98143edfd68d250862b621505c03d527c957576b7c5e7642ee"
+      sha256 "9b33c16666036527304c76deebc7b563a6d18953125d47d748583ac62f07f795"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/everstacklabs/homebrew-tap/releases/download/v#{version}/ewt-linux-aarch64.tar.gz"
-      sha256 "17e53fc829bb738b0b9ba57ef571d0231a495f0eea0d348fde4d0f00eaa2be20"
+      sha256 "6dbe59c0841dde44afd57ab68ac97802c24d129ec69164adb0d50de64fb0bc9f"
     end
     on_intel do
       url "https://github.com/everstacklabs/homebrew-tap/releases/download/v#{version}/ewt-linux-x86_64.tar.gz"
-      sha256 "bd0f638301a636227af75f36ef89c412d713f16b8733650bf8f3568c135907b7"
+      sha256 "bae314c3bef6c2c267c4e02c16c688fe3841a74493e534b8439e0078ff1077f5"
     end
   end
 
