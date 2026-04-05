@@ -1,24 +1,24 @@
 class Ewt < Formula
   desc "Runtime isolation for Git worktrees — run multiple environments simultaneously"
   homepage "https://ewt.sh"
-  version "0.1.27"
+  version "0.1.28"
   license "FSL-1.1-ALv2"
 
   on_macos do
     on_arm do
       url "https://github.com/everstacklabs/homebrew-tap/releases/download/v#{version}/ewt-darwin-aarch64.tar.gz"
-      sha256 "63fe1dc29114eba5311181f81aba3a2b2ac780aac5a11f28d329326d9dbfe57e"
+      sha256 "17ba7021fa5e1615ac3ce977f772da068563640fa9214a530a792936167195e3"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/everstacklabs/homebrew-tap/releases/download/v#{version}/ewt-linux-aarch64.tar.gz"
-      sha256 "545acdb1ce7e8c28bfdb7fd8beee33c84843574266d72b80edcd971930c4afe2"
+      sha256 "11c7757a2d3d1764ae1169002f0931c150545e6ba2e4d033226d790c4be5cce2"
     end
     on_intel do
       url "https://github.com/everstacklabs/homebrew-tap/releases/download/v#{version}/ewt-linux-x86_64.tar.gz"
-      sha256 "7767167ac642324a4caa6f0799191aa05dcdb2e76cf346bd2b641740828d6ed6"
+      sha256 "3cfc78d380029b74517d0fe6f334891dcc818b4c8c648b986493fe1cd6052214"
     end
   end
 
