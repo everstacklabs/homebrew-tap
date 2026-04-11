@@ -1,24 +1,24 @@
 class Esruntime < Formula
   desc "Runtime isolation for Git worktrees — run multiple environments simultaneously"
   homepage "https://runtime.everstack.ai"
-  version "0.1.31"
+  version "0.1.32"
   license "FSL-1.1-ALv2"
 
   on_macos do
     on_arm do
       url "https://github.com/everstacklabs/homebrew-tap/releases/download/v#{version}/esruntime-darwin-aarch64.tar.gz"
-      sha256 "56429d8d49d40831408b2750c8fea16e95f1be56c76181b496d0e506bbf88407"
+      sha256 "0327df4e56c1c0d2d646523d845a909d9572a7a11efce49ac7a4dae6d74f15d1"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/everstacklabs/homebrew-tap/releases/download/v#{version}/esruntime-linux-aarch64.tar.gz"
-      sha256 "0ad7cc326baf8de4401ec170fab79593d7209d0196c2d847a7f7a2bb400fa6b7"
+      sha256 "aca4c229fed8a47b95f14a4f2b35fa703077e4c5bd18fe7442ade86fc8ca045b"
     end
     on_intel do
       url "https://github.com/everstacklabs/homebrew-tap/releases/download/v#{version}/esruntime-linux-x86_64.tar.gz"
-      sha256 "7e4aa2fe614da5f54cc04c960be279f4a8e2300c4530d4e1b24578373cec87ac"
+      sha256 "d30000c0933ded21d9fe446536ff7f22022477b30a27572f085e85344637a621"
     end
   end
 
