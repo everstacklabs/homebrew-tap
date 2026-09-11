@@ -6,28 +6,28 @@
 class Evs < Formula
   desc "CLI for Everstack - the AI gateway, agents, and sandbox platform"
   homepage "https://everstack.ai"
-  version "0.1.24"
+  version "0.1.44"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/everstacklabs/releases/releases/download/v0.1.24/everstack-darwin-arm64.gz"
-      sha256 "a4e822851f522bf62496b570ec9ce45ffd08be01341db5d3525eb3e9a888a5b2"
+      url "https://github.com/everstacklabs/releases/releases/download/v0.1.44/everstack-darwin-arm64.gz"
+      sha256 "707a8d84627ae94e140f6133a1df2f2446aeba7f301aafcc46cd3f29ee3ee29f"
     end
     on_intel do
-      url "https://github.com/everstacklabs/releases/releases/download/v0.1.24/everstack-darwin-amd64.gz"
-      sha256 "f49c3b3c92357024b8f5b66ebb28b5dd22be631fb4617658b7ab8acd089211ad"
+      url "https://github.com/everstacklabs/releases/releases/download/v0.1.44/everstack-darwin-amd64.gz"
+      sha256 "e765e91e06e87df3a0c8614d07ca84788fdce8f4bfa924e3d90db1feaded5aa5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/everstacklabs/releases/releases/download/v0.1.24/everstack-linux-arm64.gz"
-      sha256 "2b8417ab80d0e2c0d681b719ad3c35a535a72d924d29301a000ed8172cc9a620"
+      url "https://github.com/everstacklabs/releases/releases/download/v0.1.44/everstack-linux-arm64.gz"
+      sha256 "e37141225d801aebc2bd301dd19b85a0862bac4bc600b84b8b1a8c0aecbf5503"
     end
     on_intel do
-      url "https://github.com/everstacklabs/releases/releases/download/v0.1.24/everstack-linux-amd64.gz"
-      sha256 "e212face3c32baf481413e4c877312bf57f34bef252b3cd668e9ea8a8b6ba99e"
+      url "https://github.com/everstacklabs/releases/releases/download/v0.1.44/everstack-linux-amd64.gz"
+      sha256 "9203591d2927d738712b617ab4820e78b84006bebed2472607ac37f0fd811980"
     end
   end
 
