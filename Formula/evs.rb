@@ -12,22 +12,22 @@ class Evs < Formula
   on_macos do
     on_arm do
       url "https://github.com/everstacklabs/releases/releases/download/v0.1.45/everstack-darwin-arm64.gz"
-      sha256 "9d5597234669b7ce401b2c9537b2c4c931167826e11ca16cb59f8340fa0cf8df"
+      sha256 "4d838fae0b7276aaad40a854cb01b03ead04ae62226f735c5bba6ef3beab8837"
     end
     on_intel do
       url "https://github.com/everstacklabs/releases/releases/download/v0.1.45/everstack-darwin-amd64.gz"
-      sha256 "e5da36928cb8ce764e0567d8f2f2ec230463ec7d7449fc168b9252ef1ac969e6"
+      sha256 "f41928bd73ff97d4adb2b9f5af5ceb5b99c8cd8edf0a0f589c04fd5b131d4924"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/everstacklabs/releases/releases/download/v0.1.45/everstack-linux-arm64.gz"
-      sha256 "fae02cbf677632e0b97388d6ca48cc59a532a6e8ddfd691f7538e7c13b7bcd11"
+      sha256 "d352d01eb39292f4d6da61d25ebbbce1609dae1434e48d8bb72aab54782bde1b"
     end
     on_intel do
       url "https://github.com/everstacklabs/releases/releases/download/v0.1.45/everstack-linux-amd64.gz"
-      sha256 "1199b1f1fc62abfc40d21ad723669e7963f00d381947b0dd56386dad0318f2e2"
+      sha256 "090fd96e3609a977d28b0ae482d44d33799e09304d87354f7a5f51828d9af525"
     end
   end
 
